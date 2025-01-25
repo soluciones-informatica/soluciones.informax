@@ -1,0 +1,120 @@
+body{
+
+   border:100%;
+   width:100%;
+   margin: 0 auto;
+   /*background-image: url('img/Foto1.jpg');*/
+   background-color: #f3ecf8;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-position: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    color: rgb(255, 255, 255);
+    border: 1px black solid;
+    background-color:rgb(98, 0, 255);
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.article{
+    
+    background-color: #dec2f0;;
+    margin: 30px;
+    padding: 15px ;
+    border: 0px black solid;
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    text-shadow: 5px 3px 5px blue;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    
+}
+
+.article:hover {
+    transition: all 0.3s ease;
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+} 
+
+
+.tabla {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid rgb(7, 7, 7);
+    padding: 2px;
+    text-align: left;
+    
+}
+th {
+    background-color: #a53ceb;
+    color: rgb(7, 7, 7) ;
+}
+
+/*tr:nth-child(even){
+    background-color: #0df020;
+}*/
+
+tr{
+    background-color: #dec2f0;
+
+}
+
+tr:hover{
+    background-color: #e9b50d;
+    cursor: pointer;
+    
+}
+
+.center {
+    width: 320px;
+    margin: 0 auto;
+}
+
+
+
+footer{
+    color: rgb(255, 255, 255);
+    border: 3px black solid;
+    background-color:rgb(3, 0, 7);
+    text-align: center;
+    width:95%;
+    background-size: 100% 100%;
+    margin: 0 auto;
+   
+}
+
+footer section{
+    float: right; 
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: white;
+    padding: 5px;
+    text-decoration: 0 ;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+}
+
+footer a:hover{
+    color: rgb(132, 83, 245);
+}
+
